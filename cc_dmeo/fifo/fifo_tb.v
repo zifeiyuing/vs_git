@@ -1,7 +1,7 @@
 `timescale 1ns/1ps
 module fifo_tb ();
 
-parameter    data_width = 10,
+parameter    data_width = 100,
              data_depth = 16,
              addr_width = 4,
              PERIOD   = 20;
