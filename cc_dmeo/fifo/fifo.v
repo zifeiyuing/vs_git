@@ -1,4 +1,4 @@
-module    fifo #(parameter     data_width = 8,
+module    fifo #(parameter     data_width = 7,
                                data_depth = 16,
                                addr_width = 4)
 (   input    wire                   clk,
